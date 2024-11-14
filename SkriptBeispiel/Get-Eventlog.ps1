@@ -34,11 +34,14 @@ AUSFÜHRLICH: Vor der Abfrage
 #>
 [cmdletBinding()]
 param(
+[ValidateSet(4624,4634,4625)]
 [Parameter(Mandatory=$true)]
 [int]$EventId,
 
+[ValidateRange(1,10)]
 [int]$Newest = 5,
 
+[ValidateScript({Test-NetConnection -ComputerName $PSItem -CommonTcpPort WinRm -InformationLevel Quiet})]
 [string]$ComputerName = "localhost"
 )
 
