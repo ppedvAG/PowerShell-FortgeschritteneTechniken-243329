@@ -1,4 +1,5 @@
 ﻿param(
+[Parameter(Mandatory=$true)]
 [int]$EventId,
 
 [int]$Newest = 5,
