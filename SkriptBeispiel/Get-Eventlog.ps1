@@ -1,7 +1,7 @@
 ﻿param(
 [int]$EventId,
 
-[int]$Newest,
+[int]$Newest = 5,
 
 [string]$ComputerName = "localhost"
 )
