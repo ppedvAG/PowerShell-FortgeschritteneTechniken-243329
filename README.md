@@ -13,3 +13,15 @@ Agenda:
     - [ ] Comment Based Help
     - [ ] Parameter Validierung
     - [ ] Ausführliche Ausgabe mit Verbose
+    - [ ] Fehlerbehandlung / Eigene Fehler erzeugen
+    - [ ] Advanced Parameter
+        - [ ] Mandatory
+        - [ ] ParameterSet
+        - [ ] Pipelinefähigkeit
+    - [ ] Beginn Process End
+    - [ ] Functions
+    - [ ] Skript Modul 
+    - [ ] Modulmanifest
+- [ ] PowerShell Provider
+- [ ] PowerShell Remoting
+- [ ] PowerShell Transactions
